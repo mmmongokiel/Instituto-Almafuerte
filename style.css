@@ -1,0 +1,36 @@
+/* Estilos generales */
+
+body{
+    font-family: ;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    height: 70px;
+    padding: 10px;
+}
+
+.logo{
+    display:flex;
+}
+
+.logo img{
+    height: 120px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-left: 10px;
+}
