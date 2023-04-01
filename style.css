@@ -34,3 +34,15 @@ nav a{
     font-weight: 600;
     padding-left: 10px;
 }
+
+/* Secciones */
+
+.seccion-blanca{
+    background-color: white;
+    color: black;
+}
+
+.seccion-azul{
+    background-color: rgb(9, 100, 204);
+    color:white;
+}
