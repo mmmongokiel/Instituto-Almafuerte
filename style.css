@@ -51,6 +51,9 @@ nav a{
 /* Secciones */
 
 .seccion-blanca{
+    display: flex;
+    align-items: center;
+    padding: 50px;
     background-color: white;
     color: black;
 }
