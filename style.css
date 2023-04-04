@@ -52,8 +52,8 @@ nav a{
 
 .seccion-blanca{
     display: flex;
-    align-items: center;
-    padding: 50px;
+    justify-content: center;
+    padding: 70px;
     background-color: white;
     color: black;
 }
