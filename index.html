@@ -15,30 +15,35 @@
 	<!--GOOGLE FONTS-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+	<!-- Link bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<!-- Link de CSS-->
+	<link rel="stylesheet" href="style.css">
   <!--Titulo de pagina-->
   <title>Instituto Almafuerte</title>
 </head>
 <body>
 	<!--Navbar-->
-	<header>
+	<header id="header-index">
 		<div class="logo">
 			<img alt="logo del Almafuerte" src="./img/escudoalmafuerte.jpg">
 	  </div>
-	  <nav>
+	  <nav id="nav-index">
 			<a href="./html/contacto.html" class="nav-link">CONTACTO</a>
-			<a href="./html/institucion.html" class="nav-link">INSTITUCION</a>
 			<a href="./html/noticias.html" class="nav-link">NOTICIAS</a>
+			<a href="./html/institucion.html" class="nav-link">INSTITUCION</a>
+			<a href="./html/admisiones.html" class="nav-link">ADMISIONES</a>
 	  </nav>
 	</header>
 	<!--Sub Navbar-->
 	<div class="sub-navbar">
-		<a>.</a>
+		<a> </a>
 	</div>
 	<!--Seccion HERO-->
 	<section>
-		<!--Carrousel de imagenes-->
-		<div class="seccion-blanca">
+		<!--Seccion Carrousel-->
+		<div id="carrousel">
 			<div id="carouselExampleIndicators" class="carousel slide">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,47 +52,104 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="/media/horarios.jpg" class="d-flex w-100" alt="foto de afuera del instituto">
+						<img src="./img/preceptoria_arriba.jpeg" class="d-flex w-300" alt="...">
 					</div>
-					<div class="carousel-item active">
-						<img src="/media/aver.jpg" class="d-flex w-100" alt="foto del patio del instituto">
+					<div class="carousel-item">
+						<img src="./img/escaleras.jpeg" class="d-flex w-300" alt="...">
 					</div>
-					<div class="carousel-item active">
-						<img src="/media/horarios.jpg" class="d-flex w-100" alt="foto del gimnasio afuera">
-					</div>
-					<div class="carousel-item active">
-						<img src="/media/horarios.jpg" class="d-flex w-100" alt="foto del gimnasio adentro">
+					<div class="carousel-item">
+						<img src="./img/pasillo_superior.jpeg" class="d-flex w-300" alt="...">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Anterior</span>
+					<span class="visually-hidden">Previous</span>
 				</button>
 				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Siguiente</span>
+					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
 		</div>
 		<!--Apartado de informacion del colegio-->
 		<div class="seccion-azul">
-
-
+			<div id="informacion-hero">
+				<h3>INSTITUTO ALMAFUERTE</h3>
+				<h4>LAICO</h4>
+				<h4>NIVEL SECUNDARIO</h4>
+			</div>
+			<div id="estatua-almafuerte">
+				<img alt="Estatua Pedro Bonifacio Palacios" src="./img/almafuerte-estatua.jpeg">
+			</div>
 		</div>
 		<!--Seccion-->
-		<div class="seccion-blanca">
-
-
+		<div class="seccion-noticias">
+			<div id="texto-noticias">
+				<h3>NOTICIAS</h3>
+			</div>
 		</div>
 	</section>
 	<!--Pie de Pagina-->
+	<section class="footer-azul">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col">
+					<nav class="nav">
+						<ul class="nav_lista" >
+								<li>
+										<a class="nav_lista_item" href="./index.html">Inicio</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/produccion.html">Producción</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/origen.html">Productos</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/comprar.html">Comprar</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/contacto.html">Contacto</a>
+								</li>
+						</ul>
+				</nav>
+				</div>
+				<div class="col">
+					<div class="">
+						<img src="./img/escudoalmafuerte.jpg" alt="escudo del colegio">
+					</div>
+				</div>
+				<div class="col">
+					<nav class="nav">
+						<ul class="nav_lista">
+								<li>
+										<a class="nav_lista_item" href="./index.html">Inicio</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/produccion.html">Producción</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/origen.html">Productos</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/comprar.html">Comprar</a>
+								</li>
+								<li>
+										<a class="nav_lista_item" href="./html/contacto.html">Contacto</a>
+								</li>
+						</ul>
+				</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer negro -->
 	<footer>
-		<div class="footer-azul">
-			
-    </div>
     <div class="footer-negro">
-      <p>Instituto almafuerte - GRUPO PP</p>
+      <p id="texto-footer">Instituto Almafuerte - Pistone & Pinto</p>
     </div>
 	</footer>
+	<!-- CDN bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

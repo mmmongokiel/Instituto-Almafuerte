@@ -1,13 +1,13 @@
 /* Estilos generales */
 
-body{
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
+*{
+    list-style-type: none;
+		color: white;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+body{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -17,9 +17,18 @@ header{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(9, 100, 204);
+    background-color: rgb(40, 49, 171);
     height: 70px;
-    padding: 40px;
+    padding: 30px;
+}
+
+#header-index{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 49, 171);
+    height: 131px;
 }
 
 .logo{
@@ -31,10 +40,19 @@ header{
     height: 120px;
 }
 
+#nav-index a{
+    display: inline;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 40px;
+}
+
 nav a{
     font-size: 17px;
     font-weight: 200;
     padding-left: 40px;
+    text-decoration: none;
+    color: white;
 }
 
 /* Sub header */
@@ -42,7 +60,7 @@ nav a{
 .sub-navbar{
     display:flex;
     background-color: black;
-    max-height: 22px;
+    padding: 3px;
 }
 
 .sub-navbar a{
@@ -52,13 +70,78 @@ nav a{
 
 .seccion-blanca{
     display: flex;
-    justify-content: center;
-    padding: 70px;
+    padding: 25px;
     background-color: white;
-    color: black;
+    color: rgb(40, 49, 171);
+    font-size: 30px;
+}
+
+/* Carrousel*/
+
+#carrousel{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+#carrousel img{
+    height: 500px;
+    width: 800px;
 }
 
 .seccion-azul{
-    background-color: rgb(9, 100, 204);
+    display: flex;
+    padding: 70px; 
+    background-color: rgb(40, 49, 171);
     color:white;
+}
+
+.seccion-noticias{
+    display: flex;
+    padding: 50px;
+    background-color: white;
+}
+
+/* Hero */
+
+#informacion-hero{
+    padding-left: 200px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Antonio', sans-serif;
+}
+
+#estatua-almafuerte img{
+    
+}
+
+/* Noticias */
+
+#texto-noticias{
+	padding-left: 70px;
+	color: rgb(40, 49, 171);
+    font-family: 'Antonio', sans-serif;
+	font-size: 40px;
+}
+
+/* Footer azul*/
+
+.footer-azul{
+    padding: 40px;
+	bottom: 0px;
+    background-color: rgb(40, 49, 171);
+}
+
+/* Footer negro*/
+
+.footer-negro{
+    display:flex;
+	bottom: 0px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+}
+
+#texto-footer{
+    padding: 2px;
 }
