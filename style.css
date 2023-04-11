@@ -96,7 +96,7 @@ nav a{
     color:white;
 }
 
-.seccion-noticias{
+.seccion-blanca{
     display: flex;
     padding: 50px;
     background-color: white;
@@ -109,10 +109,31 @@ nav a{
     text-align: center;
     font-size: 100px;
     font-family: 'Antonio', sans-serif;
+    color:rgb(40, 49, 171);
 }
 
 #estatua-almafuerte img{
-    
+    width: 300px;
+    height: 150px;
+}
+
+/* Elegirnos */
+
+#seccion-elegirnos{
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+    background-color: rgb(40, 49, 171);
+}
+
+#texto-elegirnos{
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+}
+
+.items-elegirnos{
+    display: flex;
 }
 
 /* Noticias */
@@ -130,6 +151,26 @@ nav a{
     padding: 40px;
 	bottom: 0px;
     background-color: rgb(40, 49, 171);
+}
+
+.mapa_footer{
+    border-radius: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav .nav_lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .nav_lista .nav_lista_item{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer negro*/
