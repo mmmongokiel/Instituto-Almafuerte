@@ -107,7 +107,7 @@ nav a{
 #informacion-hero{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
     padding-bottom: 50px;
 }
 
@@ -124,8 +124,10 @@ nav a{
 }
 
 #estatua-almafuerte img{
-    width: 300px;
-    height: 150px;
+    width:750px;
+    height: 350px; 
+    border-radius: 20px;
+    padding-left: 155px;
 }
 
 /* Elegirnos */
