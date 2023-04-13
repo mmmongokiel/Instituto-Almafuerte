@@ -17,7 +17,7 @@ header{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
     height: 70px;
     padding: 30px;
 }
@@ -27,7 +27,7 @@ header{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
     height: 131px;
 }
 
@@ -55,24 +55,13 @@ nav a{
     color: white;
 }
 
-/* Sub header */
-
-.sub-navbar{
-    display:flex;
-    background-color: black;
-    padding: 3px;
-}
-
-.sub-navbar a{
-    color: black;
-}
 /* Secciones */
 
 .seccion-blanca{
     display: flex;
     padding: 25px;
     background-color: white;
-    color: rgb(40, 49, 171);
+    color: rgb(3, 32, 139, 0.899);
     font-size: 30px;
 }
 
@@ -81,18 +70,18 @@ nav a{
 #carrousel{
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 27px;
 }
 
 #carrousel img{
     height: 500px;
-    width: 800px;
+    width: 900px;
 }
 
 .seccion-azul{
     display: flex;
     padding: 70px; 
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
     color:white;
 }
 
@@ -104,6 +93,10 @@ nav a{
 
 /* Hero */
 
+#hero-index{
+    padding-top: 20px;
+}
+
 #informacion-hero{
     display: flex;
     flex-direction: column;
@@ -114,19 +107,19 @@ nav a{
 #informacion-hero h3{
     font-size: 60px;
     font-family: 'Antonio', sans-serif;
-    color:rgb(40, 49, 171);
+    color:rgb(3, 32, 139, 0.899);
 }
 
 #informacion-hero p{
     font-size: 30px;
     font-family: 'Antonio', sans-serif;
-    color: rgb(40, 49, 171);
+    color: rgb(3, 32, 139, 0.899);
 }
 
 #estatua-almafuerte img{
     width:750px;
     height: 350px; 
-    border-radius: 20px;
+    border-radius: 5px;
     padding-left: 155px;
 }
 
@@ -137,7 +130,7 @@ nav a{
     justify-content: center;
     padding-top: 60px;
     padding-bottom: 35px;
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
 }
 
 #texto-elegirnos{
@@ -152,10 +145,10 @@ nav a{
 
 .elegirnos{
     padding: 0px 50px 80px 50px;
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
 }
 
-.elegirnos .columna {
+.elegirnos .columna{
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -172,7 +165,7 @@ nav a{
 
 .elegirnos i{
     font-size: 2.5rem;
-    color:rgb(40, 49, 171);
+    color:rgb(3, 32, 139, 0.899);
     background-color: rgb(255, 255, 255) ;
     padding: 12px 30px;
     border-radius: 50%;
@@ -183,7 +176,7 @@ nav a{
 
 #texto-noticias{
 	padding-left: 70px;
-	color: rgb(40, 49, 171);
+	color: rgb(3, 32, 139, 0.899);
     font-family: 'Antonio', sans-serif;
 	font-size: 40px;
 }
@@ -193,11 +186,11 @@ nav a{
 .footer-azul{
     padding: 40px;
 	bottom: 0px;
-    background-color: rgb(40, 49, 171);
+    background-color: rgb(3, 32, 139, 0.899);
 }
 
 .mapa_footer{
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .nav{
@@ -213,7 +206,15 @@ nav a{
 
 .nav .nav_lista .nav_lista_item{
     display: flex;
-    justify-content: space-between;
+    padding: 17px;
+}
+
+/* Texto footer azul*/
+
+.texto-footer-azul{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
 }
 
 /* Footer negro*/
