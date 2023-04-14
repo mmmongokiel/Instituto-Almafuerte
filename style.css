@@ -70,13 +70,15 @@ nav a{
 #carrousel{
     display: flex;
     justify-content: center;
-    padding: 27px;
+    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 #carrousel img{
     height: 500px;
     width: 900px;
 }
+
 
 .seccion-azul{
     display: flex;
@@ -181,6 +183,19 @@ nav a{
 	font-size: 40px;
 }
 
+#noticias-pequeñas a{
+    color: rgb(3, 32, 139, 0.899);
+    font-family: 'Antonio', sans-serif;
+    text-decoration: none;
+}
+
+#noticias-pequeñas a:hover{
+    color: white;
+    background-color: rgb(3, 32, 139, 0.899);
+    padding-bottom: 5px;
+}
+
+
 /* Footer azul*/
 
 .footer-azul{
@@ -214,7 +229,7 @@ nav a{
 .texto-footer-azul{
     display: flex;
     justify-content: center;
-    padding-top: 55px;
+    padding-top: 40px;
 }
 
 /* Footer negro*/
