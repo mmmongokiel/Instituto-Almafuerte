@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(3, 32, 139, 0.899);
-    height: 90px;
+    height: 151px;
     padding: 30px;
 }
 
@@ -112,12 +112,16 @@ nav a{
 
 /* Seccion contactos */
 
-/* estilos seccion contacto */
+.seccion-contacto{
+    padding: 50px 10px 130px 10px;
+}
+
 .seccion_titulo{
     background-color: white;
 }
 
 #h1_principal{
+    font-family: 'Antonio', sans-serif;
     display: flex;
     color: rgb(3, 32, 139, 0.899);
     justify-content: center;
@@ -133,6 +137,7 @@ nav a{
 }
 
 #titulo1{
+    font-family: 'Antonio', sans-serif;
     grid-area: area1;
     color: black;
     font-size: 25px;
@@ -147,6 +152,7 @@ nav a{
 }
 
 #titulo2{
+    font-family: 'Antonio', sans-serif;
     grid-area: area2;
     color: black;
     font-size: 25px;
@@ -161,6 +167,7 @@ nav a{
 }
 
 #titulo3{
+    font-family: 'Antonio', sans-serif;
     grid-area: area5;
     color: black;
     font-size: 25px;
@@ -294,6 +301,7 @@ nav a{
     padding-top: 50px;
     padding-right: 20px;
 }
+
 
 .noticias-pequeñas img{
     display: flex;
