@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(3, 32, 139, 0.899);
-    height: 70px;
+    height: 90px;
     padding: 30px;
 }
 
@@ -28,7 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(3, 32, 139, 0.899);
-    height: 131px;
+    height: 151px;
 }
 
 .logo{
@@ -55,16 +55,6 @@ nav a{
     color: white;
 }
 
-/* Secciones */
-
-.seccion-blanca{
-    display: flex;
-    padding: 25px;
-    background-color: white;
-    color: rgb(3, 32, 139, 0.899);
-    font-size: 30px;
-}
-
 /* Carrousel*/
 
 #carrousel{
@@ -79,6 +69,15 @@ nav a{
     width: 900px;
 }
 
+/* Secciones */
+
+.seccion-blanca{
+    display: flex;
+    padding: 25px;
+    background-color: white;
+    color: rgb(3, 32, 139, 0.899);
+    font-size: 30px;
+}
 
 .seccion-azul{
     display: flex;
@@ -177,19 +176,54 @@ nav a{
 /* Noticias */
 
 #texto-noticias{
-	padding-left: 70px;
+    display: flex;
+    padding-bottom: 30px;
+	padding-left: 40px;
 	color: rgb(3, 32, 139, 0.899);
     font-family: 'Antonio', sans-serif;
-	font-size: 40px;
 }
 
-#noticias-pequeñas a{
+#seccion-noticias{
+    display: flex;
+}
+
+#seccion-noticias #noticia-principal{
+    display: flex;
+    padding-top: 70px;
+}
+
+#seccion-noticias #noticia-principal img{
+    width: 450px;
+    height: 360px;
+}
+
+.noticias-pequeñas{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.noticias-pequeñas img{
+    display: flex;
+    padding: 19px;
+    width: 300px;
+    height: 200px;
+}
+
+#texto-noticias-pequeña{
+    display: flex;
+    justify-content: center;
+}
+
+#texto-noticias-pequeñas a{
     color: rgb(3, 32, 139, 0.899);
     font-family: 'Antonio', sans-serif;
     text-decoration: none;
 }
 
-#noticias-pequeñas a:hover{
+#texto-noticias-pequeñas a:hover{
     color: white;
     background-color: rgb(3, 32, 139, 0.899);
     padding-bottom: 5px;
@@ -221,7 +255,7 @@ nav a{
 
 .nav .nav_lista .nav_lista_item{
     display: flex;
-    padding: 17px;
+    padding: 22px;
 }
 
 /* Texto footer azul*/
