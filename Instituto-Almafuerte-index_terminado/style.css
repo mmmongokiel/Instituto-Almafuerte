@@ -1,0 +1,269 @@
+/* Estilos generales */
+
+*{
+    list-style-type: none;
+		color: white;
+}
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+}
+
+/*slider*/
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left:0;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
+/* Header */
+
+header{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 32, 139, 0.899);
+    height: 70px;
+    padding: 30px;
+}
+
+#header-index{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 32, 139, 0.899);
+    height: 131px;
+}
+
+.logo{
+    display:flex;
+    padding-right: 60px;
+}
+
+.logo img{
+    height: 120px;
+}
+
+#nav-index a{
+    display: inline;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 40px;
+}
+
+nav a{
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Secciones */
+
+.seccion-blanca{
+    display: flex;
+    padding: 25px;
+    background-color: white;
+    color: rgb(3, 32, 139, 0.899);
+    font-size: 30px;
+}
+
+/* Carrousel*/
+
+#carrousel{
+    display: flex;
+    justify-content: center;
+    padding: 27px;
+}
+
+#carrousel img{
+    height: 500px;
+    width: 900px;
+}
+
+.seccion-azul{
+    display: flex;
+    padding: 70px; 
+    background-color: rgb(3, 32, 139, 0.899);
+    color:white;
+}
+
+.seccion-blanca{
+    display: flex;
+    padding: 50px;
+    background-color: white;
+}
+
+/* Hero */
+
+#hero-index{
+    padding-top: 20px;
+}
+
+#informacion-hero{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+#informacion-hero h3{
+    font-size: 60px;
+    font-family: 'Antonio', sans-serif;
+    color:rgb(3, 32, 139, 0.899);
+}
+
+#informacion-hero p{
+    font-size: 30px;
+    font-family: 'Antonio', sans-serif;
+    color: rgb(3, 32, 139, 0.899);
+}
+
+#estatua-almafuerte img{
+    width:750px;
+    height: 350px; 
+    border-radius: 5px;
+    padding-left: 155px;
+}
+
+/* Elegirnos */
+
+#seccion-elegirnos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    background-color: rgb(3, 32, 139, 0.899);
+}
+
+#texto-elegirnos{
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+}
+
+.items-elegirnos{
+    display: flex;
+}
+
+.elegirnos{
+    padding: 0px 50px 80px 50px;
+    background-color: rgb(3, 32, 139, 0.899);
+}
+
+.elegirnos .columna{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.elegirnos-titulo{
+    padding-top: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.elegirnos i{
+    font-size: 2.5rem;
+    color:rgb(3, 32, 139, 0.899);
+    background-color: rgb(255, 255, 255) ;
+    padding: 12px 30px;
+    border-radius: 50%;
+}
+
+
+/* Noticias */
+
+#texto-noticias{
+	padding-left: 70px;
+	color: rgb(3, 32, 139, 0.899);
+    font-family: 'Antonio', sans-serif;
+	font-size: 40px;
+}
+
+/* Footer azul*/
+
+.footer-azul{
+    padding: 40px;
+	bottom: 0px;
+    background-color: rgb(3, 32, 139, 0.899);
+}
+
+.mapa_footer{
+    border-radius: 5px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav .nav_lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .nav_lista .nav_lista_item{
+    display: flex;
+    padding: 17px;
+}
+
+/* Texto footer azul*/
+
+.texto-footer-azul{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+/* Footer negro*/
+
+.footer-negro{
+    display:flex;
+	bottom: 0px;
+    background-color: black;
+    justify-content: center;
+    color: #aeaeae;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto-footer{
+    padding: 2px;
+}
+
+
+/* comienzo media queries index*/
