@@ -12,17 +12,8 @@ body{
 
 /* Header */
 
-header{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(3, 32, 139, 0.899);
-    height: 151px;
-    padding: 30px;
-}
 
-#header-index{
+.header{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -40,20 +31,13 @@ header{
     height: 120px;
 }
 
-#nav-index a{
+.navbar a{
     display: inline;
     font-size: 17px;
     font-weight: 200;
     padding-left: 40px;
 }
 
-nav a{
-    font-size: 17px;
-    font-weight: 200;
-    padding-left: 40px;
-    text-decoration: none;
-    color: white;
-}
 
 /* Secciones */
 
