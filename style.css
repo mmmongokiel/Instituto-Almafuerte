@@ -2,7 +2,7 @@
 
 *{
     list-style-type: none;
-		color: white;
+	color: white;
 }
 
 body{
@@ -11,7 +11,6 @@ body{
 }
 
 /* Header */
-
 
 .header{
     display: flex;
@@ -404,7 +403,9 @@ body{
 
 .nav .nav_lista .nav_lista_item{
     display: flex;
+    text-decoration: none;
     padding: 22px;
+    color: white;
 }
 
 /* Texto footer azul*/
