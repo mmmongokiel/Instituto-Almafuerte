@@ -320,6 +320,16 @@ body{
     opacity: 1;
 }
 
+/* Carrousel */
+
+#carrousel{
+    padding: 50px 70px 40px 70px;
+}
+
+#carrousel img{
+    height: 700px;
+}
+
 /* Noticias */
 
 #texto-noticias{
