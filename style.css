@@ -91,7 +91,7 @@ body{
 /* Seccion contactos */
 
 .seccion-contacto{
-    padding: 50px 10px 130px 10px;
+    padding: 50px 10px 15px 10px;
 }
 
 .seccion_titulo{
@@ -106,63 +106,49 @@ body{
     padding-bottom: 3%;
 }
 
-.seccion_textos{
-    display: grid;
-    grid-template-columns:33%  ;
-    grid-template-rows:50% ;
-    grid-template-areas: "area1 area2 area5" "area3 area4 area6" ; 
-    border-color: black;
-}
-
 #titulo1{
     font-family: 'Antonio', sans-serif;
-    grid-area: area1;
     color: black;
     font-size: 25px;
-    padding-left: 5%;
+    text-align:center;
 }
 
 #texto1{
-    grid-area: area3;
     color: black;
     font-size: 20px;
-    padding:5%;
+    padding: 1.5%;
 }
 
-#titulo2{
-    font-family: 'Antonio', sans-serif;
-    grid-area: area2;
-    color: black;
-    font-size: 25px;
-    padding-left: 5%;
-}
-
-#texto2{
-    grid-area: area4;
-    color: black;
-    font-size: 20px;
-    padding:5%;
-}
-
-#titulo3{
-    font-family: 'Antonio', sans-serif;
-    grid-area: area5;
-    color: black;
-    font-size: 25px;
-    padding-left: 5%;
-}
-
-#texto3{
-    grid-area: area6;
-    color: black;
-    font-size: 20px;
-    padding:5%;
-}
-
-.barra_color{
+.contacto{
     width: 100%;
-    height: 30px;
+    padding-bottom: 25px;
+    padding-left: 530px;
+    display: flex;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
     background-color: rgb(3, 32, 139, 0.899);
+    border: 2px solid white;
+    padding: 15px 40px 15px 40px; 
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    border: 3px solid rgb(3, 32, 139, 0.899);
+}
+
+.contacto button i{
+    color: white;
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i{
+    color:rgb(3, 32, 139, 0.899);
 }
 
 /* Slider de imagenes */
@@ -186,7 +172,7 @@ body{
 .slider img{
     display: flex;
     width: 100%;
-    height: 565px;
+    height: 575px;
 }
 
 @keyframes cambio{
@@ -222,7 +208,7 @@ body{
 }
 
 .elegirnos{
-    padding: 0px 50px 80px 50px;
+    padding: 0px 50px 60px 50px;
     background-color: rgb(3, 32, 139, 0.899);
 }
 
@@ -249,11 +235,22 @@ body{
     border-radius: 50%;
 }
 
+/* Video aniversario */
+
+#seccion-video{
+    padding-top: 55px;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+}
+
 /* Instituto */
 
 .nuestra-historia{
     display: flex;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 35px;
     justify-content: center;
 }
@@ -264,8 +261,9 @@ body{
     font-size: 50px;
 }
 
-#texto-parrafo{
-    padding-bottom: 35px;
+#texto-parrafo{ 
+    padding-bottom:35px;
+    justify-content: center;
 }
 
 #texto-parrafo p{
@@ -274,7 +272,6 @@ body{
     margin: 0 auto 0;
     padding: 1%;
     text-align: center;
-    flex-direction:column;
     color: black;
 }
 
@@ -288,21 +285,21 @@ body{
     color: black;
 }
 
-.posesiones{
-    padding: 20px;
+.escudos{
+   padding: 5px;
 }
 
-.posesion img{
+.escudo img{
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
 }
 
-.posesiones-contenedor{
-    padding-top: 30px;
+.escudos-contenedor{
+    padding-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -322,35 +319,35 @@ body{
     margin-bottom: 0;
 }
 
-.posesion{
+.escudo{
     position: relative;
 }
 
-.posesion:hover img{
+.escudo:hover img{
     opacity: 0.8;
 }
 
-.posesion:hover .overlay{
+.escudo:hover .overlay{
     opacity: 1;
 }
 
 /* Carrousel */
 
 #carrousel{
-    padding: 50px 70px 40px 70px;
+    padding: 50px 70px 0px 70px;
 }
 
 #carrousel img{
-    height: 700px;
+    height: 600px;
 }
 
 /* Noticias */
 
 #texto-noticias h2{
     display: flex;
-    padding-top: 20px;
+    padding-top: 30px;
 	color: rgb(3, 32, 139, 0.899);
-    padding-left: 200px;
+    padding-left: 190px;
     font-family: 'Antonio', sans-serif;
 }
 
@@ -398,7 +395,6 @@ body{
     padding-right: 20px;
 }
 
-
 /* Footer azul*/
 
 .footer-azul{
@@ -425,7 +421,7 @@ body{
 .nav .nav_lista .nav_lista_item{
     display: flex;
     text-decoration: none;
-    padding: 22px;
+    padding: 46px;
     color: white;
 }
 
@@ -434,7 +430,11 @@ body{
 .texto-footer-azul{
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 30px;
+}
+
+.texto-footer-azul p{
+    color: white;
 }
 
 /* Footer negro*/
@@ -444,12 +444,12 @@ body{
 	bottom: 0px;
     background-color: black;
     justify-content: center;
-    color: #aeaeae;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #texto-footer{
     padding: 2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Media queries */
@@ -460,3 +460,5 @@ body{
         font-family: 'Antonio', sans-serif;
     }
 }
+
+
