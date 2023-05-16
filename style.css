@@ -329,24 +329,6 @@ body{
     position: relative;
 }
 
-.escudo:hover img{
-    opacity: 0.8;
-}
-
-.escudo:hover .overlay{
-    opacity: 1;
-}
-
-/* Carrousel */
-
-#carrousel{
-    padding: 50px 70px 0px 70px;
-}
-
-#carrousel img{
-    height: 600px;
-}
-
 /* Noticias */
 
 #texto-noticias h2{
